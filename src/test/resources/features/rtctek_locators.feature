@@ -10,7 +10,7 @@ Feature: RTCtek - Demonstrate failing locators across strategies
 
   @bad_id
   Scenario: Broken ID locator
-    When I try to locate by "id" with value "menu-main-men"
+    When I try to locate by "id" with value "//ul[@id="menu-main-menu"]"
     Then the step should fail due to locator issue
 
   @bad_name
@@ -45,7 +45,7 @@ Feature: RTCtek - Demonstrate failing locators across strategies
 
   @bad_linktext
   Scenario: Broken LINKTEXT locator
-    When I try to locate by "linkText" with value "Contact U"
+    When I try to locate by "linkText" with value "linktext:Contact Us"
     Then the step should fail due to locator issue
 
   @bad_partiallinktext

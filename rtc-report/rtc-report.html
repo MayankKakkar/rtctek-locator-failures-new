@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"/>
+<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Expires" content="0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>RTC Locator Healing Report</title>
 <style>
@@ -14,8 +17,10 @@ code{background:#f3f3f3;padding:2px 4px;border-radius:4px} .small{color:#777;fon
 </head>
 <body>
 <h1>RTC Locator Healing Report</h1>
-<div class="meta">Generated at Tue, 16 Sep 2025 18:12:05 IST (IST)</div>
-<div class="meta">Total tests: 15 &nbsp;|&nbsp; Passed: <span class="pass">13</span> &nbsp;|&nbsp; Failed: <span class="fail">2</span> &nbsp;|&nbsp; Healing triggered: 5 &nbsp;|&nbsp; Avg time: 1s 950 ms</div>
+<div class="meta">Generated at Wed, 17 Sep 2025 19:54:41 IST (IST)</div>
+<div class="meta">Total tests: 15 &nbsp;|&nbsp; Passed: <span class="pass">12</span> &nbsp;|&nbsp; Failed: <span class="fail">3</span> &nbsp;|&nbsp; Healing triggered: 5 &nbsp;|&nbsp; Avg time: 2s 440 ms</div>
+<button id="create-pr-btn" disabled style="margin:8px 0; padding:6px 12px;">Create PR</button>
+<div id="pr-status" class="small" style="margin-left:8px"></div>
 <table>
 <thead>
 <tr>
@@ -27,6 +32,7 @@ code{background:#f3f3f3;padding:2px 4px;border-radius:4px} .small{color:#777;fon
 <th>Was healing triggered</th>
 <th>Test result</th>
 <th>Time taken</th>
+<th>Locator file (abs path)</th>
 <th class="small">Timestamp (IST)</th>
 </tr>
 </thead>
@@ -35,46 +41,60 @@ code{background:#f3f3f3;padding:2px 4px;border-radius:4px} .small{color:#777;fon
 <td>main</td>
 <td><code>menu-main-men</code></td>
 <td>id</td>
-<td><code>null</code></td>
+<td><code>//ul[@id=&quot;menu-main-menu&quot;]</code></td>
 <td>id</td>
 <td>Yes</td>
-<td class="fail">FAIL</td>
-<td>4s 943 ms</td>
-<td class="small">2025-09-16 18:11:30 IST</td>
+<td class="pass">PASS</td>
+<td>8s 418 ms</td>
+<td><code>C:\Users\mayank\Documents\GitHub\rtctek-locator-failures-new\src\test\resources\features\rtctek_locators.feature:13</code></td>
+<td class="small">2025-09-17 19:54:00 IST</td>
 </tr>
+<tr><td colspan="9">
+<button class="update-btn" data-original-strategy="id" data-original-locator="menu-main-men" data-healed-locator="//ul[@id=&quot;menu-main-menu&quot;]" data-feature-file="C:\Users\mayank\Documents\GitHub\rtctek-locator-failures-new\src\test\resources\features\rtctek_locators.feature" data-line-number="13" >Update Locator</button>
+<span class="small" style="margin-left:8px"></span>
+</td></tr>
 <tr>
 <td>main</td>
 <td><code>elementor-heading-titlee</code></td>
-<td>class</td>
-<td><code>.elementor-heading-title</code></td>
-<td>class</td>
+<td>className</td>
+<td><code>null</code></td>
+<td>className</td>
 <td>Yes</td>
-<td class="pass">PASS</td>
-<td>5s 779 ms</td>
-<td class="small">2025-09-16 18:11:36 IST</td>
+<td class="fail">FAIL</td>
+<td>6s 800 ms</td>
+<td><code>C:\Users\mayank\Documents\GitHub\rtctek-locator-failures-new\src\test\resources\features\rtctek_locators.feature:23</code></td>
+<td class="small">2025-09-17 19:54:09 IST</td>
 </tr>
 <tr>
 <td>main</td>
 <td><code>//*[@id=&#39;menu-item-4711&#39;]/a</code></td>
 <td>xpath</td>
-<td><code>//a[text()=&#39;About Us&#39;]</code></td>
+<td><code>null</code></td>
 <td>xpath</td>
 <td>Yes</td>
-<td class="pass">PASS</td>
-<td>6s 929 ms</td>
-<td class="small">2025-09-16 18:11:43 IST</td>
+<td class="fail">FAIL</td>
+<td>8s 865 ms</td>
+<td><code>C:\Users\mayank\Documents\GitHub\rtctek-locator-failures-new\src\test\resources\features\rtctek_locators.feature:38</code></td>
+<td class="small">2025-09-17 19:54:17 IST</td>
 </tr>
 <tr>
 <td>main</td>
 <td><code>Contact U</code></td>
-<td>linktext</td>
-<td><code>linktext:Contact Us</code></td>
-<td>linktext</td>
+<td>linkText</td>
+<td><code>linktext:Contact Us
+</code></td>
+<td>linkText</td>
 <td>Yes</td>
 <td class="pass">PASS</td>
-<td>8s 85 ms</td>
-<td class="small">2025-09-16 18:11:51 IST</td>
+<td>8s 783 ms</td>
+<td><code>C:\Users\mayank\Documents\GitHub\rtctek-locator-failures-new\src\test\resources\features\rtctek_locators.feature:48</code></td>
+<td class="small">2025-09-17 19:54:27 IST</td>
 </tr>
+<tr><td colspan="9">
+<button class="update-btn" data-original-strategy="linkText" data-original-locator="Contact U" data-healed-locator="linktext:Contact Us
+" data-feature-file="C:\Users\mayank\Documents\GitHub\rtctek-locator-failures-new\src\test\resources\features\rtctek_locators.feature" data-line-number="48" >Update Locator</button>
+<span class="small" style="margin-left:8px"></span>
+</td></tr>
 <tr>
 <td>main</td>
 <td><code>a[href=&#39;/contact/&#39;]</code></td>
@@ -83,10 +103,48 @@ code{background:#f3f3f3;padding:2px 4px;border-radius:4px} .small{color:#777;fon
 <td>css</td>
 <td>Yes</td>
 <td class="fail">FAIL</td>
-<td>3s 351 ms</td>
-<td class="small">2025-09-16 18:12:01 IST</td>
+<td>3s 331 ms</td>
+<td><code>C:\Users\mayank\Documents\GitHub\rtctek-locator-failures-new\src\test\resources\features\rtctek_locators.feature:73</code></td>
+<td class="small">2025-09-17 19:54:37 IST</td>
 </tr>
 </tbody>
 </table>
+<script>
+(function(){
+ function post(url,payload){return fetch(url,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)}).then(r=>r.json()).catch(()=>({success:false,message:'request failed'}));}
+ const port='9099';
+ const featureRoot='';
+ const prBtn=document.getElementById('create-pr-btn');
+ document.querySelectorAll('.update-btn').forEach(btn=>{
+  btn.addEventListener('click', async function(){
+    const row=this.closest('tr').previousElementSibling;
+    const origStr=this.getAttribute('data-original-strategy');
+    const origLoc=this.getAttribute('data-original-locator');
+    const healedLoc=this.getAttribute('data-healed-locator');
+    const featureFile=this.getAttribute('data-feature-file');
+    const lineNumber=this.getAttribute('data-line-number');
+    this.disabled=true;
+    const span=this.nextElementSibling;
+    span.textContent='Updating...';
+    const payload={originalStrategy:origStr,originalLocator:origLoc,healedLocator:healedLoc};
+    if (featureFile) payload.featureFile=featureFile;
+    if (lineNumber) payload.lineNumber=parseInt(lineNumber,10);
+    const controller=new AbortController(); const t=setTimeout(()=>controller.abort(),60000);
+    let res; try {
+      const params=new URLSearchParams(); Object.keys(payload).forEach(k=>params.append(k,String(payload[k])));
+      res = await fetch('http://127.0.0.1:'+port+'/rtc-report/update-locator-lite?'+params.toString(),{method:'GET',signal:controller.signal}).then(r=>r.json());
+    } catch(e){ res={success:false,message:e&&e.message?e.message:'request failed'} } finally { clearTimeout(t); }
+    if(res&&res.success){ span.textContent='Updated ?'; span.style.color='#0a7d13'; if(prBtn) prBtn.disabled=false; } else { this.disabled=false; span.textContent='Failed: '+(res&&res.message?res.message:'unknown'); span.style.color='#b00020'; }
+  });
+ });
+ if (prBtn) {
+  prBtn.addEventListener('click', async function(){
+    prBtn.disabled=true; const st=document.getElementById('pr-status'); st.textContent='Creating PR...';
+    const res=await post('http://127.0.0.1:'+port+'/rtc-report/create-pr',{});
+    if(res&&res.success){ st.textContent='PR created: '+(res.url||''); } else { st.textContent='Failed: '+(res&&res.message?res.message:'unknown'); prBtn.disabled=false; }
+  });
+ }
+})();
+</script>
 </body>
 </html>

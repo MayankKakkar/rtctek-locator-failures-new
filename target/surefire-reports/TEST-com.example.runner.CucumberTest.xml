@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.runner.CucumberTest" time="43.538" tests="15" errors="2" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.runner.CucumberTest" time="49.067" tests="15" errors="5" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\mayank\AppData\Local\Temp\surefire1719153287028720954\surefirebooter-20250918140448202_3.jar C:\Users\mayank\AppData\Local\Temp\surefire1719153287028720954 2025-09-18T14-04-47_975-jvmRun1 surefire-20250918140448202_1tmp surefire_0-20250918140448202_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\mayank\AppData\Local\Temp\surefire5954699326823433599\surefirebooter-20250918184940980_3.jar C:\Users\mayank\AppData\Local\Temp\surefire5954699326823433599 2025-09-18T18-49-40_537-jvmRun1 surefire-20250918184940980_1tmp surefire_0-20250918184940980_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\mayank\Documents\GitHub\rtctek-locator-failures-new\target\test-classes;C:\Users\mayank\Documents\GitHub\rtctek-locator-failures-new\target\classes;C:\Users\mayank\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\mayank\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\mayank\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\mayank\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\mayank\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\mayank\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\mayank\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\mayank\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\mayank\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\mayank\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\mayank\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\mayank\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\mayank\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\mayank\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\mayank\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\mayank\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\mayank\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\mayank\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\mayank\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\mayank\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\mayank\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\mayank\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\mayank\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\mayank\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\mayank\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\mayank\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\mayank\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\mayank\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\mayank\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\mayank\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\mayank\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\mayank\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\mayank\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\mayank\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\mayank\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\mayank\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\mayank\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\mayank\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\mayank\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\mayank\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\mayank\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\mayank\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\mayank\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\mayank\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\mayank\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\mayank\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\mayank\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\mayank\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\mayank\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\mayank\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\mayank\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\mayank\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\mayank\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\mayank\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\mayank\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\mayank\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mayank\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\mayank\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\mayank\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\mayank\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\mayank\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\mayank\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;C:\Users\mayank\Documents\GitHub\rtctek-locator-failures-new\lib\rtc-client-2.0.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\mayank\AppData\Local\Temp\surefire1719153287028720954\surefirebooter-20250918140448202_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\mayank\AppData\Local\Temp\surefire5954699326823433599\surefirebooter-20250918184940980_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -57,7 +57,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Broken ID locator" classname="RTCtek - Demonstrate failing locators across strategies" time="6.41">
+  <testcase name="Broken ID locator" classname="RTCtek - Demonstrate failing locators across strategies" time="7.493">
     <error message="The step &apos;I try to locate by &quot;id&quot; with value &quot;//ul[@id=&quot;menu-main-menu&quot;]&quot;&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@When(&quot;I try to locate by {string} with value \&quot;\\/\\/ul[@id=\&quot;menu-main-menu\&quot;]\&quot;&quot;)&#10;public void i_try_to_locate_by_with_value_ul_id_menu_main_menu(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
 The step 'I try to locate by "id" with value "//ul[@id="menu-main-menu"]"' is undefined.
 You can implement this step using the snippet(s) below:
@@ -78,13 +78,13 @@ Scenario: Broken ID locator                                            # src/tes
   When I try to locate by "id" with value "//ul[@id="menu-main-menu"]"
   Then the step should fail due to locator issue                       # com.example.steps.LocatorSteps.the_step_should_fail_due_to_locator_issue()
 ]]></system-out>
-    <system-err><![CDATA[Sep 18, 2025 2:04:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Sep 18, 2025 6:49:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 140
-Sep 18, 2025 2:04:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Sep 18, 2025 6:49:46 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 140.0.7339.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Broken NAME locator" classname="RTCtek - Demonstrate failing locators across strategies" time="1.945">
+  <testcase name="Broken NAME locator" classname="RTCtek - Demonstrate failing locators across strategies" time="1.573">
     <system-out><![CDATA[
 @rtctek @bad_name
 Scenario: Broken NAME locator                    # src/test/resources/features/rtctek_locators.feature:17
@@ -95,17 +95,17 @@ Scenario: Broken NAME locator                    # src/test/resources/features/r
   Then the step should fail due to locator issue # com.example.steps.LocatorSteps.the_step_should_fail_due_to_locator_issue()
 ]]></system-out>
   </testcase>
-  <testcase name="Broken CLASSNAME locator" classname="RTCtek - Demonstrate failing locators across strategies" time="9.007">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.elementor\-heading\-titlee&quot;}&#10;  (Session info: chrome=140.0.7339.128)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [215ddb2b992922e1bc9149b7277a65e6, findElement {value=elementor-heading-titlee, using=class name}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\mayank\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50573}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50573/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 215ddb2b992922e1bc9149b7277a65e6" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":".elementor\-heading\-titlee"}
+  <testcase name="Broken CLASSNAME locator" classname="RTCtek - Demonstrate failing locators across strategies" time="7.352">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.title&quot;}&#10;  (Session info: chrome=140.0.7339.128)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [0e3f51b816135424a09e23ef0e66f95f, findElement {value=title, using=class name}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\mayank\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59190/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0e3f51b816135424a09e23ef0e66f95f" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".title"}
   (Session info: chrome=140.0.7339.128)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [215ddb2b992922e1bc9149b7277a65e6, findElement {value=elementor-heading-titlee, using=class name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\mayank\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50573}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50573/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 215ddb2b992922e1bc9149b7277a65e6
+Command: [0e3f51b816135424a09e23ef0e66f95f, findElement {value=title, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\mayank\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59190/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e3f51b816135424a09e23ef0e66f95f
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -125,24 +125,25 @@ Session ID: 215ddb2b992922e1bc9149b7277a65e6
 	at com.rtc.client.RtcIntegration.findElement(RtcIntegration.java:122)
 	at com.rtc.client.RtcWebDriver.findElement(RtcWebDriver.java:54)
 	at com.example.steps.LocatorSteps.i_try_to_locate_by_with_value(LocatorSteps.java:32)
-	at ✽.I try to locate by "className" with value "elementor-heading-titlee"(file:///C:/Users/mayank/Documents/GitHub/rtctek-locator-failures-new/src/test/resources/features/rtctek_locators.feature:23)
+	at ✽.I try to locate by "className" with value "title"(file:///C:/Users/mayank/Documents/GitHub/rtctek-locator-failures-new/src/test/resources/features/rtctek_locators.feature:23)
 ]]></error>
     <system-out><![CDATA[
 @rtctek @bad_classname
-Scenario: Broken CLASSNAME locator                                          # src/test/resources/features/rtctek_locators.feature:22
-  Given I open the RTCtek homepage                                          # com.example.steps.LocatorSteps.i_open_the_rtctek_homepage()
-🔧 Locator failed, attempting RTC healing: By.className: elementor-heading-titlee
-✅ Locator healed: By.className: elementor-heading-titlee → elementor-heading-title
-  When I try to locate by "className" with value "elementor-heading-titlee" # com.example.steps.LocatorSteps.i_try_to_locate_by_with_value(java.lang.String,java.lang.String)
-      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".elementor\-heading\-titlee"}
+Scenario: Broken CLASSNAME locator                       # src/test/resources/features/rtctek_locators.feature:22
+  Given I open the RTCtek homepage                       # com.example.steps.LocatorSteps.i_open_the_rtctek_homepage()
+🔧 Locator failed, attempting RTC healing: By.className: title
+✅ Locator healed: By.className: title → linktext:AI Services
+
+  When I try to locate by "className" with value "title" # com.example.steps.LocatorSteps.i_try_to_locate_by_with_value(java.lang.String,java.lang.String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".title"}
   (Session info: chrome=140.0.7339.128)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [215ddb2b992922e1bc9149b7277a65e6, findElement {value=elementor-heading-titlee, using=class name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\mayank\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50573}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50573/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 215ddb2b992922e1bc9149b7277a65e6
+Command: [0e3f51b816135424a09e23ef0e66f95f, findElement {value=title, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\mayank\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59190/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e3f51b816135424a09e23ef0e66f95f
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -162,32 +163,32 @@ Session ID: 215ddb2b992922e1bc9149b7277a65e6
 	at com.rtc.client.RtcIntegration.findElement(RtcIntegration.java:122)
 	at com.rtc.client.RtcWebDriver.findElement(RtcWebDriver.java:54)
 	at com.example.steps.LocatorSteps.i_try_to_locate_by_with_value(LocatorSteps.java:32)
-	at âœ½.I try to locate by "className" with value "elementor-heading-titlee"(file:///C:/Users/mayank/Documents/GitHub/rtctek-locator-failures-new/src/test/resources/features/rtctek_locators.feature:23)
+	at âœ½.I try to locate by "className" with value "title"(file:///C:/Users/mayank/Documents/GitHub/rtctek-locator-failures-new/src/test/resources/features/rtctek_locators.feature:23)
 
-  Then the step should fail due to locator issue                            # com.example.steps.LocatorSteps.the_step_should_fail_due_to_locator_issue()
+  Then the step should fail due to locator issue         # com.example.steps.LocatorSteps.the_step_should_fail_due_to_locator_issue()
 ]]></system-out>
-    <system-err><![CDATA[❌ RTC healing failed: no such element: Unable to locate element: {"method":"css selector","selector":"elementor-heading-title"}
+    <system-err><![CDATA[❌ RTC healing failed: no such element: Unable to locate element: {"method":"link text","selector":"AI Services"}
   (Session info: chrome=140.0.7339.128)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [215ddb2b992922e1bc9149b7277a65e6, findElement {value=elementor-heading-title, using=css selector}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\mayank\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50573}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50573/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 215ddb2b992922e1bc9149b7277a65e6
-❌ Locator failed even after RTC healing: className = elementor-heading-titlee
-❌ Error: no such element: Unable to locate element: {"method":"css selector","selector":".elementor\-heading\-titlee"}
+Command: [0e3f51b816135424a09e23ef0e66f95f, findElement {value=AI Services, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\mayank\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59190/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e3f51b816135424a09e23ef0e66f95f
+❌ Locator failed even after RTC healing: className = title
+❌ Error: no such element: Unable to locate element: {"method":"css selector","selector":".title"}
   (Session info: chrome=140.0.7339.128)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [215ddb2b992922e1bc9149b7277a65e6, findElement {value=elementor-heading-titlee, using=class name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\mayank\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50573}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50573/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 215ddb2b992922e1bc9149b7277a65e6
+Command: [0e3f51b816135424a09e23ef0e66f95f, findElement {value=title, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\mayank\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59190/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e3f51b816135424a09e23ef0e66f95f
 ]]></system-err>
   </testcase>
-  <testcase name="Broken CSS locator - attribute" classname="RTCtek - Demonstrate failing locators across strategies" time="0.41">
+  <testcase name="Broken CSS locator - attribute" classname="RTCtek - Demonstrate failing locators across strategies" time="0.547">
     <system-out><![CDATA[
 @rtctek @bad_css_1
 Scenario: Broken CSS locator - attribute                         # src/test/resources/features/rtctek_locators.feature:27
@@ -198,7 +199,7 @@ Scenario: Broken CSS locator - attribute                         # src/test/reso
   Then the step should fail due to locator issue                 # com.example.steps.LocatorSteps.the_step_should_fail_due_to_locator_issue()
 ]]></system-out>
   </testcase>
-  <testcase name="Broken CSS locator - nth-child" classname="RTCtek - Demonstrate failing locators across strategies" time="0.395">
+  <testcase name="Broken CSS locator - nth-child" classname="RTCtek - Demonstrate failing locators across strategies" time="0.604">
     <system-out><![CDATA[
 @rtctek @bad_css_2
 Scenario: Broken CSS locator - nth-child                                         # src/test/resources/features/rtctek_locators.feature:32
@@ -209,7 +210,7 @@ Scenario: Broken CSS locator - nth-child                                        
   Then the step should fail due to locator issue                                 # com.example.steps.LocatorSteps.the_step_should_fail_due_to_locator_issue()
 ]]></system-out>
   </testcase>
-  <testcase name="Broken XPATH - wrong id" classname="RTCtek - Demonstrate failing locators across strategies" time="0.42">
+  <testcase name="Broken XPATH - wrong id" classname="RTCtek - Demonstrate failing locators across strategies" time="0.609">
     <system-out><![CDATA[
 @rtctek @bad_xpath_1
 Scenario: Broken XPATH - wrong id                                     # src/test/resources/features/rtctek_locators.feature:37
@@ -220,7 +221,7 @@ Scenario: Broken XPATH - wrong id                                     # src/test
   Then the step should fail due to locator issue                      # com.example.steps.LocatorSteps.the_step_should_fail_due_to_locator_issue()
 ]]></system-out>
   </testcase>
-  <testcase name="Broken XPATH - brittle index" classname="RTCtek - Demonstrate failing locators across strategies" time="0.341">
+  <testcase name="Broken XPATH - brittle index" classname="RTCtek - Demonstrate failing locators across strategies" time="0.475">
     <system-out><![CDATA[
 @rtctek @bad_xpath_2
 Scenario: Broken XPATH - brittle index                                                  # src/test/resources/features/rtctek_locators.feature:42
@@ -231,31 +232,120 @@ Scenario: Broken XPATH - brittle index                                          
   Then the step should fail due to locator issue                                        # com.example.steps.LocatorSteps.the_step_should_fail_due_to_locator_issue()
 ]]></system-out>
   </testcase>
-  <testcase name="Broken LINKTEXT locator" classname="RTCtek - Demonstrate failing locators across strategies" time="12.943">
+  <testcase name="Broken LINKTEXT locator" classname="RTCtek - Demonstrate failing locators across strategies" time="0.529">
+    <error message="The step &apos;I try to locate by &quot;linkText&quot; with value &quot;a[href=&quot;https://rtctek.com/contact-us/&quot;]&quot;https://rtctek.com/contact-us/&quot;]&quot;https://rtctek.com/contact-us/&quot;]&quot;https://rtctek.com/contact-us/&quot;]&quot;&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@When(&quot;I try to locate by {string} with value \&quot;a[href=\&quot;https:\\/\\/rtctek.com\\/contact-us\\/\&quot;]\&quot;https:\\/\\/rtctek.com\\/contact-us\\/\&quot;]\&quot;https:\\/\\/rtctek.com\\/contact-us\\/\&quot;]\&quot;https:\\/\\/rtctek.com\\/contact-us\\/{string}&quot;)&#10;public void i_try_to_locate_by_with_value_a_href_https_rtctek_com_contact_us_https_rtctek_com_contact_us_https_rtctek_com_contact_us_https_rtctek_com_contact_us(String string, String string2) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'I try to locate by "linkText" with value "a[href="https://rtctek.com/contact-us/"]"https://rtctek.com/contact-us/"]"https://rtctek.com/contact-us/"]"https://rtctek.com/contact-us/"]"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I try to locate by {string} with value \"a[href=\"https:\\/\\/rtctek.com\\/contact-us\\/\"]\"https:\\/\\/rtctek.com\\/contact-us\\/\"]\"https:\\/\\/rtctek.com\\/contact-us\\/\"]\"https:\\/\\/rtctek.com\\/contact-us\\/{string}")
+public void i_try_to_locate_by_with_value_a_href_https_rtctek_com_contact_us_https_rtctek_com_contact_us_https_rtctek_com_contact_us_https_rtctek_com_contact_us(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
     <system-out><![CDATA[
 @rtctek @bad_linktext
-Scenario: Broken LINKTEXT locator                                     # src/test/resources/features/rtctek_locators.feature:47
-  Given I open the RTCtek homepage                                    # com.example.steps.LocatorSteps.i_open_the_rtctek_homepage()
-🔧 Locator failed, attempting RTC healing: By.linkText: linktext:Contact Us
-✅ Locator healed: By.linkText: linktext:Contact Us → a[href="https://rtctek.com/contact-us/"]
-✅ Successfully located: linkText = linktext:Contact Us
-🔧 Element found: a
-  When I try to locate by "linkText" with value "linktext:Contact Us" # com.example.steps.LocatorSteps.i_try_to_locate_by_with_value(java.lang.String,java.lang.String)
-  Then the step should fail due to locator issue                      # com.example.steps.LocatorSteps.the_step_should_fail_due_to_locator_issue()
+Scenario: Broken LINKTEXT locator                                                                                                                                                             # src/test/resources/features/rtctek_locators.feature:47
+  Given I open the RTCtek homepage                                                                                                                                                            # com.example.steps.LocatorSteps.i_open_the_rtctek_homepage()
+  When I try to locate by "linkText" with value "a[href="https://rtctek.com/contact-us/"]"https://rtctek.com/contact-us/"]"https://rtctek.com/contact-us/"]"https://rtctek.com/contact-us/"]"
+  Then the step should fail due to locator issue                                                                                                                                              # com.example.steps.LocatorSteps.the_step_should_fail_due_to_locator_issue()
 ]]></system-out>
   </testcase>
-  <testcase name="Broken PARTIALLINKTEXT locator" classname="RTCtek - Demonstrate failing locators across strategies" time="0.358">
+  <testcase name="Broken PARTIALLINKTEXT locator" classname="RTCtek - Demonstrate failing locators across strategies" time="6.929">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;partial link text&quot;,&quot;selector&quot;:&quot;Contactt&quot;}&#10;  (Session info: chrome=140.0.7339.128)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [0e3f51b816135424a09e23ef0e66f95f, findElement {value=Contactt, using=partial link text}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\mayank\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59190/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0e3f51b816135424a09e23ef0e66f95f" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"partial link text","selector":"Contactt"}
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e3f51b816135424a09e23ef0e66f95f, findElement {value=Contactt, using=partial link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\mayank\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59190/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e3f51b816135424a09e23ef0e66f95f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at com.rtc.client.RtcIntegration.findElement(RtcIntegration.java:122)
+	at com.rtc.client.RtcWebDriver.findElement(RtcWebDriver.java:54)
+	at com.example.steps.LocatorSteps.i_try_to_locate_by_with_value(LocatorSteps.java:32)
+	at ✽.I try to locate by "partialLinkText" with value "Contactt"(file:///C:/Users/mayank/Documents/GitHub/rtctek-locator-failures-new/src/test/resources/features/rtctek_locators.feature:53)
+]]></error>
     <system-out><![CDATA[
 @rtctek @bad_partiallinktext
-Scenario: Broken PARTIALLINKTEXT locator                         # src/test/resources/features/rtctek_locators.feature:52
-  Given I open the RTCtek homepage                               # com.example.steps.LocatorSteps.i_open_the_rtctek_homepage()
-✅ Successfully located: partialLinkText = Contact
-🔧 Element found: a
-  When I try to locate by "partialLinkText" with value "Contact" # com.example.steps.LocatorSteps.i_try_to_locate_by_with_value(java.lang.String,java.lang.String)
-  Then the step should fail due to locator issue                 # com.example.steps.LocatorSteps.the_step_should_fail_due_to_locator_issue()
+Scenario: Broken PARTIALLINKTEXT locator                          # src/test/resources/features/rtctek_locators.feature:52
+  Given I open the RTCtek homepage                                # com.example.steps.LocatorSteps.i_open_the_rtctek_homepage()
+🔧 Locator failed, attempting RTC healing: By.partialLinkText: Contactt
+✅ Locator healed: By.partialLinkText: Contactt → partialLinkText:Contact
+
+  When I try to locate by "partialLinkText" with value "Contactt" # com.example.steps.LocatorSteps.i_try_to_locate_by_with_value(java.lang.String,java.lang.String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"Contactt"}
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e3f51b816135424a09e23ef0e66f95f, findElement {value=Contactt, using=partial link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\mayank\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59190/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e3f51b816135424a09e23ef0e66f95f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at com.rtc.client.RtcIntegration.findElement(RtcIntegration.java:122)
+	at com.rtc.client.RtcWebDriver.findElement(RtcWebDriver.java:54)
+	at com.example.steps.LocatorSteps.i_try_to_locate_by_with_value(LocatorSteps.java:32)
+	at âœ½.I try to locate by "partialLinkText" with value "Contactt"(file:///C:/Users/mayank/Documents/GitHub/rtctek-locator-failures-new/src/test/resources/features/rtctek_locators.feature:53)
+
+  Then the step should fail due to locator issue                  # com.example.steps.LocatorSteps.the_step_should_fail_due_to_locator_issue()
 ]]></system-out>
+    <system-err><![CDATA[❌ RTC healing failed: no such element: Unable to locate element: {"method":"partial link text","selector":"partialLinkText:Contact"}
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e3f51b816135424a09e23ef0e66f95f, findElement {value=partialLinkText:Contact, using=partial link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\mayank\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59190/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e3f51b816135424a09e23ef0e66f95f
+❌ Locator failed even after RTC healing: partialLinkText = Contactt
+❌ Error: no such element: Unable to locate element: {"method":"partial link text","selector":"Contactt"}
+  (Session info: chrome=140.0.7339.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e3f51b816135424a09e23ef0e66f95f, findElement {value=Contactt, using=partial link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.128, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\mayank\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59190/devtoo..., se:cdpVersion: 140.0.7339.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e3f51b816135424a09e23ef0e66f95f
+]]></system-err>
   </testcase>
-  <testcase name="Broken TAGNAME locator" classname="RTCtek - Demonstrate failing locators across strategies" time="0.432">
+  <testcase name="Broken TAGNAME locator" classname="RTCtek - Demonstrate failing locators across strategies" time="0.786">
     <system-out><![CDATA[
 @rtctek @bad_tagname
 Scenario: Broken TAGNAME locator                        # src/test/resources/features/rtctek_locators.feature:57
@@ -266,42 +356,45 @@ Scenario: Broken TAGNAME locator                        # src/test/resources/fea
   Then the step should fail due to locator issue        # com.example.steps.LocatorSteps.the_step_should_fail_due_to_locator_issue()
 ]]></system-out>
   </testcase>
-  <testcase name="Valid ID locator" classname="RTCtek - Demonstrate failing locators across strategies" time="0.318">
+  <testcase name="Valid ID locator" classname="RTCtek - Demonstrate failing locators across strategies" time="9.595">
     <system-out><![CDATA[
 @rtctek @good_id
-Scenario: Valid ID locator                                 # src/test/resources/features/rtctek_locators.feature:62
-  Given I open the RTCtek homepage                         # com.example.steps.LocatorSteps.i_open_the_rtctek_homepage()
-✅ Successfully located: id = menu-main-menu
-🔧 Element found: ul
-  When I try to locate by "id" with value "menu-main-menu" # com.example.steps.LocatorSteps.i_try_to_locate_by_with_value(java.lang.String,java.lang.String)
-  Then the element should be found successfully            # com.example.steps.LocatorSteps.the_element_should_be_found_successfully()
+Scenario: Valid ID locator                               # src/test/resources/features/rtctek_locators.feature:62
+  Given I open the RTCtek homepage                       # com.example.steps.LocatorSteps.i_open_the_rtctek_homepage()
+🔧 Locator failed, attempting RTC healing: By.id: menu-main-me
+✅ Locator healed: By.id: menu-main-me → linktext:About Us
+
+✅ Successfully located: id = menu-main-me
+🔧 Element found: a
+  When I try to locate by "id" with value "menu-main-me" # com.example.steps.LocatorSteps.i_try_to_locate_by_with_value(java.lang.String,java.lang.String)
+  Then the element should be found successfully          # com.example.steps.LocatorSteps.the_element_should_be_found_successfully()
 ]]></system-out>
   </testcase>
-  <testcase name="Valid CLASSNAME locator" classname="RTCtek - Demonstrate failing locators across strategies" time="0.431">
+  <testcase name="Valid CLASSNAME locator" classname="RTCtek - Demonstrate failing locators across strategies" time="9.986">
     <system-out><![CDATA[
 @rtctek @good_classname
-Scenario: Valid CLASSNAME locator                                          # src/test/resources/features/rtctek_locators.feature:67
-  Given I open the RTCtek homepage                                         # com.example.steps.LocatorSteps.i_open_the_rtctek_homepage()
-✅ Successfully located: className = elementor-heading-title
+Scenario: Valid CLASSNAME locator                                           # src/test/resources/features/rtctek_locators.feature:67
+  Given I open the RTCtek homepage                                          # com.example.steps.LocatorSteps.i_open_the_rtctek_homepage()
+🔧 Locator failed, attempting RTC healing: By.className: elementor-heading-titlee
+✅ Locator healed: By.className: elementor-heading-titlee → .elementor-heading-title
+✅ Successfully located: className = elementor-heading-titlee
 🔧 Element found: h2
-  When I try to locate by "className" with value "elementor-heading-title" # com.example.steps.LocatorSteps.i_try_to_locate_by_with_value(java.lang.String,java.lang.String)
-  Then the element should be found successfully                            # com.example.steps.LocatorSteps.the_element_should_be_found_successfully()
+  When I try to locate by "className" with value "elementor-heading-titlee" # com.example.steps.LocatorSteps.i_try_to_locate_by_with_value(java.lang.String,java.lang.String)
+  Then the element should be found successfully                             # com.example.steps.LocatorSteps.the_element_should_be_found_successfully()
 ]]></system-out>
   </testcase>
-  <testcase name="Valid CSS locator" classname="RTCtek - Demonstrate failing locators across strategies" time="8.605">
+  <testcase name="Valid CSS locator" classname="RTCtek - Demonstrate failing locators across strategies" time="0.634">
     <system-out><![CDATA[
 @rtctek @good_css
-Scenario: Valid CSS locator                                      # src/test/resources/features/rtctek_locators.feature:72
-  Given I open the RTCtek homepage                               # com.example.steps.LocatorSteps.i_open_the_rtctek_homepage()
-🔧 Locator failed, attempting RTC healing: By.cssSelector: a[href='/contact/']
-✅ Locator healed: By.cssSelector: a[href='/contact/'] → a[href='/contact-us/']
-✅ Successfully located: css = a[href='/contact/']
+Scenario: Valid CSS locator                                         # src/test/resources/features/rtctek_locators.feature:72
+  Given I open the RTCtek homepage                                  # com.example.steps.LocatorSteps.i_open_the_rtctek_homepage()
+✅ Successfully located: css = a[href='/contact-us/']
 🔧 Element found: a
-  When I try to locate by "css" with value "a[href='/contact/']" # com.example.steps.LocatorSteps.i_try_to_locate_by_with_value(java.lang.String,java.lang.String)
-  Then the element should be found successfully                  # com.example.steps.LocatorSteps.the_element_should_be_found_successfully()
+  When I try to locate by "css" with value "a[href='/contact-us/']" # com.example.steps.LocatorSteps.i_try_to_locate_by_with_value(java.lang.String,java.lang.String)
+  Then the element should be found successfully                     # com.example.steps.LocatorSteps.the_element_should_be_found_successfully()
 ]]></system-out>
   </testcase>
-  <testcase name="Valid XPATH locator" classname="RTCtek - Demonstrate failing locators across strategies" time="0.446">
+  <testcase name="Valid XPATH locator" classname="RTCtek - Demonstrate failing locators across strategies" time="0.491">
     <system-out><![CDATA[
 @rtctek @good_xpath
 Scenario: Valid XPATH locator                                                    # src/test/resources/features/rtctek_locators.feature:77
@@ -312,15 +405,24 @@ Scenario: Valid XPATH locator                                                   
   Then the element should be found successfully                                  # com.example.steps.LocatorSteps.the_element_should_be_found_successfully()
 ]]></system-out>
   </testcase>
-  <testcase name="Valid LINKTEXT locator" classname="RTCtek - Demonstrate failing locators across strategies" time="0.332">
+  <testcase name="Valid LINKTEXT locator" classname="RTCtek - Demonstrate failing locators across strategies" time="0.467">
+    <error message="The step &apos;I try to locate by &quot;linkText&quot; with value &quot;a[href=&quot;https://rtctek.com/contact-us/&quot;]&quot;&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@When(&quot;I try to locate by {string} with value \&quot;a[href=\&quot;https:\\/\\/rtctek.com\\/contact-us\\/{string}&quot;)&#10;public void i_try_to_locate_by_with_value_a_href_https_rtctek_com_contact_us(String string, String string2) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'I try to locate by "linkText" with value "a[href="https://rtctek.com/contact-us/"]"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I try to locate by {string} with value \"a[href=\"https:\\/\\/rtctek.com\\/contact-us\\/{string}")
+public void i_try_to_locate_by_with_value_a_href_https_rtctek_com_contact_us(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
     <system-out><![CDATA[
 @rtctek @good_linktext
-Scenario: Valid LINKTEXT locator                             # src/test/resources/features/rtctek_locators.feature:82
-  Given I open the RTCtek homepage                           # com.example.steps.LocatorSteps.i_open_the_rtctek_homepage()
-✅ Successfully located: linkText = Contact Us
-🔧 Element found: a
-  When I try to locate by "linkText" with value "Contact Us" # com.example.steps.LocatorSteps.i_try_to_locate_by_with_value(java.lang.String,java.lang.String)
-  Then the element should be found successfully              # com.example.steps.LocatorSteps.the_element_should_be_found_successfully()
+Scenario: Valid LINKTEXT locator                                                           # src/test/resources/features/rtctek_locators.feature:82
+  Given I open the RTCtek homepage                                                         # com.example.steps.LocatorSteps.i_open_the_rtctek_homepage()
+  When I try to locate by "linkText" with value "a[href="https://rtctek.com/contact-us/"]"
+  Then the element should be found successfully                                            # com.example.steps.LocatorSteps.the_element_should_be_found_successfully()
 ]]></system-out>
   </testcase>
 </testsuite>

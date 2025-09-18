@@ -20,7 +20,7 @@ Feature: RTCtek - Demonstrate failing locators across strategies
 
   @bad_classname
   Scenario: Broken CLASSNAME locator
-    When I try to locate by "className" with value "css:.elementor-heading-title"
+    When I try to locate by "className" with value "title"
     Then the step should fail due to locator issue
 
   @bad_css_1
@@ -45,7 +45,7 @@ Feature: RTCtek - Demonstrate failing locators across strategies
 
   @bad_linktext
   Scenario: Broken LINKTEXT locator
-    When I try to locate by "linkText" with value "a[href="https://rtctek.com/contact-us/"]"https://rtctek.com/contact-us/"]"
+    When I try to locate by "linkText" with value "a[href="https://rtctek.com/contact-us/"]"https://rtctek.com/contact-us/"]"https://rtctek.com/contact-us/"]"https://rtctek.com/contact-us/"]"
     Then the step should fail due to locator issue
 
   @bad_partiallinktext
@@ -60,12 +60,12 @@ Feature: RTCtek - Demonstrate failing locators across strategies
 
   @good_id
   Scenario: Valid ID locator
-    When I try to locate by "id" with value "menu-main-me"
+    When I try to locate by "id" with value "About Us"
     Then the element should be found successfully
 
   @good_classname
   Scenario: Valid CLASSNAME locator
-    When I try to locate by "className" with value "elementor-heading-titlee"
+    When I try to locate by "className" with value ".elementor-heading-title"
     Then the element should be found successfully
 
   @good_css

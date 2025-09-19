@@ -20,7 +20,7 @@ Feature: RTCtek - Demonstrate failing locators across strategies
 
   @bad_classname
   Scenario: Broken CLASSNAME locator
-    When I try to locate by "className" with value "elementor-heading-titlee"
+    When I try to locate by "className" with value "`css:.elementor-heading-title`"
     Then the step should fail due to locator issue
 
   @bad_css_1
@@ -35,7 +35,7 @@ Feature: RTCtek - Demonstrate failing locators across strategies
 
   @bad_xpath_1
   Scenario: Broken XPATH - wrong id
-    When I try to locate by "xpath" with value "//a[text()='About Uss']"
+    When I try to locate by "xpath" with value "//a[@href='https://rtctek.com/about-us/']"
     Then the step should fail due to locator issue
 
   @bad_xpath_2
@@ -60,7 +60,7 @@ Feature: RTCtek - Demonstrate failing locators across strategies
 
   @good_id
   Scenario: Valid ID locator
-    When I try to locate by "id" with value "menu-main-men"
+    When I try to locate by "id" with value "#menu-main-menu"
     Then the element should be found successfully
 
   @good_classname

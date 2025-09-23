@@ -20,7 +20,7 @@ Feature: RTCtek - Demonstrate failing locators across strategies
 
   @bad_classname
   Scenario: Broken CLASSNAME locator
-    When I try to locate by "className" with value "`css:.elementor-heading-title`"
+    When I try to locate by "className" with value "`css:.elementor-heading-titleeee`"
     Then the step should fail due to locator issue
 
   @bad_css_1

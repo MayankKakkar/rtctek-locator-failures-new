@@ -10,7 +10,7 @@ Feature: RTCtek - Demonstrate failing locators across strategies
 
   @bad_id
   Scenario: Broken ID locator
-    When I try to locate by "xpath" with value "//ul[@id='menu-main-menu']"
+    When I try to locate by "xpath" with value "//ul[@id='menu-main-menuuu']"
     Then the step should fail due to locator issue
 
   @bad_name
@@ -20,12 +20,12 @@ Feature: RTCtek - Demonstrate failing locators across strategies
 
   @bad_classname
   Scenario: Broken CLASSNAME locator
-    When I try to locate by "className" with value "`css:.elementor-heading-titleeee`"
+    When I try to locate by "className" with value "`css:.elementor-heading-title`"
     Then the step should fail due to locator issue
 
   @bad_css_1
   Scenario: Broken CSS locator - attribute
-    When I try to locate by "css" with value "a[href*='linkedi']"
+    When I try to locate by "css" with value "//a[contains(@href, 'linkedin')]"
     Then the step should fail due to locator issue
 
   @bad_css_2
@@ -50,7 +50,7 @@ Feature: RTCtek - Demonstrate failing locators across strategies
 
   @bad_partiallinktext
   Scenario: Broken PARTIALLINKTEXT locator
-    When I try to locate by "partialLinkText" with value "Contactt"
+    When I try to locate by "partialLinkText" with value "Contactts"
     Then the step should fail due to locator issue
 
   @bad_tagname
@@ -60,12 +60,12 @@ Feature: RTCtek - Demonstrate failing locators across strategies
 
   @good_id
   Scenario: Valid ID locator
-    When I try to locate by "xpath" with value "//ul[@id='menu-main-menu']"
+    When I try to locate by "xpath" with value "//ul[@id='menu-main-mennu']"
     Then the element should be found successfully
 
   @good_classname
   Scenario: Valid CLASSNAME locator
-    When I try to locate by "className" with value "elementor-heading-titlee"
+    When I try to locate by "className" with value "elementor-heading-titlees"
     Then the element should be found successfully
 
   @good_css
@@ -80,6 +80,6 @@ Feature: RTCtek - Demonstrate failing locators across strategies
 
   @good_linktext
   Scenario: Valid LINKTEXT locator
-    When I try to locate by "linkText" with value "Contact Uss"
+    When I try to locate by "linkText" with value "Contact Usse"
     Then the element should be found successfully
 
